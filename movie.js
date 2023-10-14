@@ -41,14 +41,3 @@ title “Casino Royale”, the studio “Eon Productions”, and the rating “P
 
 const movieObj3 = new movie("casino Royale", "Eon Productions", "PG13");
 console.log(movieObj3.movieDetails());
-
-/*c) Write a method getPG, which takes an array of base type Movie as its argument,
-and returns a new array of only those movies in the input array with a rating of "PG".
-You may assume the input array is full of Movie instances.
-The returned array need not be full.*/
-
-const movieObj4 = new movie("Home Alone", "Hughes Entertainment", "PG");
-
-const movies = ["Jailer", "Shot Boot 3", "casino Royale", "Home Alone"];
-
-console.log(movie.getPG);
